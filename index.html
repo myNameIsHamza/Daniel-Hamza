@@ -20,21 +20,31 @@
       <label id="number-label">Number</label>
       <input type="number" id="number" placeholder="number" min="1" max="10" required><br><br>
       <select id="dropdown">
-        <option value="volvo">Volvo</option>
-        <option value="saab">Saab</option>
-        <option value="mercedes">Mercedes</option>
-        <option value="audi">Audi</option>
+        <label>Which option best describes your current role?</label>
+        <option value="student">Student</option>
+        <option value="developer">Developer</option>
+        <option value="engineer">Engineer</option>
+        <option value="full">Full time job</option>
       </select>
+      <br><br>
       <input type="radio" id="male" name="gender" value="male">
       <label for="male">Male</label><br>
       <input type="radio" id="female" name="gender" value="female">
       <label for="female">Female</label><br>
       <input type="radio" id="other" name="gender" value="other">
       <label for="other">Other</label>
+      <br><br>
       <input type="checkbox" name="vehicle1" value="Boat" checked>
       <input type="checkbox" name="vehicle2" value="Boat" >
       <input type="checkbox" name="vehicle3" value="Boat" >
+      <br><br>
+      <label >Additional comments:</label>
+      <br><br>
+    <textarea id="textarea" rows="4" cols="50">
 
+    </textarea>
+    <br><br>
+    <input type="submit" id="submit" value="Submit" >
     </form>
     
 
